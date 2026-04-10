@@ -19,5 +19,8 @@ public class Sales {
     private int quantity;
     private BigDecimal unitPrice;
     private LocalDateTime soldAt;
+    int totalQuantity;
+    BigDecimal totalSales;
+    BigDecimal totalProfit;
 
 }
